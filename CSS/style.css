@@ -1,10 +1,17 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gabarito:wght@900&family=Newsreader:opsz,wght@6..72,200&family=Noto+Sans+JP:wght@100&family=Roboto+Condensed:ital,wght@1,100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script&family=Fuggles&family=Orbitron:wght@500&family=Oswald&family=Shadows+Into+Light&display=swap');
 
 body{
- background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
-    ;
-font-family: 'Noto Sans JP', sans-serif;
+ background-image: url(/CSS/img/black-1072366_1280.jpg);
+ background-attachment: fixed;
+ background-size: cover;
+ font-family: 'Croissant One', serif;
+ font-family: 'Dancing Script', cursive;
+ font-family: 'Fuggles', cursive;
+ font-family: 'Orbitron', sans-serif;
+ font-family: 'Oswald', sans-serif;
+ font-family: 'Shadows Into Light', cursive;
+
 
 }
 .cabeçalho{
@@ -16,7 +23,7 @@ font-family: 'Noto Sans JP', sans-serif;
 }
 
 .cabeçalho-img{
-    height: 72px;
+    height: 82px;
 }
 
 .cabeçalho-nav{
@@ -24,8 +31,10 @@ font-family: 'Noto Sans JP', sans-serif;
     gap: 32px;
 }
 .a,.b,.c{
-    font-size: 24px;
-    color: white;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    
 }
 
 .container{
@@ -33,22 +42,52 @@ font-family: 'Noto Sans JP', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+}
+.img{
+display: inline;
+justify-content: center;
+align-items: center;
+}
+.titulo{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 44px;
+color:whitesmoke;
     
 }
 
+
 .paragrafo{
-    font-size: 24px; 
+    font-size: 30px; 
     text-align: justify;
     max-width: 500px;
     margin: 0 auto;
-    height: 300px;
+    width: 900px;
     color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10vh;
+    
+}
+@media screen and (max-width: 500px) {  
+    .paragrafo{
+        color:#fff;
+    }
+    
+}
+    @media screen and (min-width: 800px) {  
+        .paragrafo{
+            color:#fff;
+        }
+    
+    
 }
 .imagem-Produto{
-width: 100%;
-height: 100%;
+width: 720px;
+height:720px;
+
 }
+
 .botao{
     display: flex;
     justify-content:center ;
@@ -66,18 +105,53 @@ font-size: 16px;
 
 .aside{
     width: 200px;
-
     top: 0px;
     left: 20px;
     padding: 10px;
+    
+}
+.ti{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    
+}
+.form{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
 }
 
+aside{
+display: flex;
+gap : 32px;
+align-self: center;
+justify-content: center;
+align-items: center;
+
+    
+}
+#nome{
+    border: solid white 10px;
+}
+#idade{
+    border: solid white 10px;
+}
+#email{
+    border: solid white 10px;
+}
+#lim{
+ border: solid white 10px;
+}
+#en{
+    border: solid white 10px;
+}
 footer{
     height: 72px;
 }
 .rodape{
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color:black;
     display: flex;
     flex-direction: row;
@@ -87,6 +161,9 @@ footer{
 }
 .fale{
    color:#fff ;
+   font-family: 'Oswald', sans-serif;
+   font-size: 24px;
+    
 }
 .zap,.face,.twiter{
     height: 30px;
