@@ -39,7 +39,6 @@ body{
 
 .container{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -50,6 +49,7 @@ align-items: center;
 }
 .titulo{
 display: flex;
+text-align: center;
 align-items: center;
 justify-content: center;
 font-size: 44px;
@@ -117,47 +117,69 @@ font-size: 16px;
     
 }
 .form{
-    color: #fff;
-    font-family: 'Oswald', sans-serif;
-    font-size: 24px;
-}
-
-aside{
 display: flex;
+flex-direction: column;
 gap : 32px;
 align-self: center;
 justify-content: center;
 align-items: center;
+color: #fff;
+font-family: 'Oswald', sans-serif;
+font-size: 24px;
+padding: 5px;
 
-    
+
+
 }
+aside{
+text-align: center;
+border:solid white 30px;
+border-radius: 130px;
+
+
+}
+
 #nome{
-    border: solid white 10px;
+    border: solid black 5px;
+    border-radius: 12px;
+    height: 30px;
+    width: 180px;
 }
 #idade{
-    border: solid white 10px;
+    border: solid black 5px;
+    border-radius: 12px;
+    height: 30px;
+    width: 180px;
 }
 #email{
-    border: solid white 10px;
+    border: solid black 5px;
+    border-radius: 12px;
+    height: 30px;
+    width: 180px;
 }
 #lim{
- border: solid white 10px;
+    border: solid black 5px;
+    border-radius: 12px;
+    height: 50px;
+    width: 80px;
 }
 #en{
-    border: solid white 10px;
+    border: solid black 5px;
+    border-radius: 12px;
+    height: 50px;
+    width: 80px;
 }
 footer{
     height: 72px;
 }
 .rodape{
-    width: 100%;
-    height: 300px;
-    background-color:black;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
+    background-color:black;
+    width: 100%;
+  
 }
 .fale{
    color:#fff ;
@@ -167,4 +189,10 @@ footer{
 }
 .zap,.face,.twiter{
     height: 30px;
+}
+
+@media screen and (max-width: 750px){
+    .img{
+       
+    }
 }
