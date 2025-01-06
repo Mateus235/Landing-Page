@@ -17,7 +17,7 @@ body{
 
 
 }
-.cabeçalho{
+.cabecalho{
     display: flex;
 
     align-items: center;
@@ -25,11 +25,11 @@ body{
     padding: 24px;
 }
 
-.cabeçalho-img{
+.cabecalho-img{
     height: 82px;
 }
 
-.cabeçalho-nav{
+.cabecalho-nav{
     display: flex;
     gap: 32px;
 }
